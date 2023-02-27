@@ -1,6 +1,6 @@
 export interface ISquare {
-    row: string;
-    column: number;
+    row: number;
+    column: string;
     color: string;
-    content: string;
+    content: string | number;
 }
